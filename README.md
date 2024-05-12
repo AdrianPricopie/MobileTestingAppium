@@ -19,3 +19,10 @@ This project is dedicated to testing the Altex mobile application using the Appi
   - Samsung S22
   - Google Pixel 6
 - Android 12: Operating system used on the test devices.
+
+## Project Structure
+
+1. **src/main/java/PageObjects**:The Page Object Model (POM) is a design pattern that helps in creating reusable and maintainable code by representing each web page as a separate class.
+2. **src/main/java/Utils/AndroidActions**:This directory likely contains utility classes or methods related to performing actions specific to Android devices in a mobile automation project.to perform actions such as tapping, swiping.
+3. **src/main/java/Resources/data.properties**:The data.properties file stores various configuration parameters in a key-value pair format.
+
