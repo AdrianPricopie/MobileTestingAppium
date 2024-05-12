@@ -32,6 +32,15 @@ This project is dedicated to testing the Altex mobile application using the Appi
 6. **src/test/java/Configuration**: the Configuration class is responsible for setting up and configuring the Appium environment, initializing the Android driver, and performing cleanup tasks after test execution. This class plays a crucial role in the test automation framework for testing the Altex application on Android devices.
 7. **src/test/java/Listeners**: Listeners class serves as a listener for TestNG test events and is responsible for generating Extent reports with detailed test execution results. It captures test start, success, and failure events and logs them appropriately in the Extent report. This class plays a vital role in providing comprehensive test reports for analyzing test execution outcomes.
 8. **src/test/java/ExtentReporterNG**:ExtentReporterNG class facilitates the creation and configuration of Extent reports by providing a method to obtain an instance of the ExtentReports object with the necessary settings. This class is integral to generating comprehensive and visually appealing test reports for analyzing test execution results.
+9.**browserstack.yml**:this configuration file provides settings for authentication, specifying the project and build details, defining the platforms/devices for testing, configuring BrowserStack Local, and enabling debugging features for enhanced test analysis.
+10.**testng.xml**:testng.xml file defines a test suite that includes multiple test classes (such as LoginTests, ProductComparisonTests, and searchFunctionalityTests) and uses a listener specified in the Listeners class to handle testing events.
+11.**pom.xml**:pom.xml file defines project metadata, build configurations, properties, and dependencies required for building and running the Appium framework design project.
+
+
+
+
+
+
 
 
 
