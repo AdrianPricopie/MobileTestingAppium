@@ -1,0 +1,17 @@
+[
+  {
+    "Product": "iPhone 15",
+    "InexistingProduct": "fdasfdsa",
+    "TwoCharacter": "iP",
+    "ValidEmail":"bank-guide@wuvxtq9v.mailosaur.net",
+    "ValidPassword": "Parola123",
+    "InvalidPassword": "ParoF3244"
+  },
+
+  {
+    "Product": "Televizor",
+    "InexistingProduct": "F3J20IF2093F3J2WC23C2",
+    "TwoCharacter": "AB"
+  }
+
+]
