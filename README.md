@@ -20,22 +20,46 @@ This project is dedicated to testing the Altex mobile application using the Appi
   - Google Pixel 6
 - Android 12: Operating system used on the test devices.
 
-## Project Structure
+### Project Structure
 
-1. **src/main/java/PageObjects**:The Page Object Model (POM) is a design pattern that helps in creating reusable and maintainable code by representing each web page as a separate class.
-2. **src/main/java/Utils/AndroidActions**:This directory likely contains utility classes or methods related to performing actions specific to Android devices in a mobile automation project.to perform actions such as tapping, swiping.
-3. **src/main/java/Resources/data.properties**:The data.properties file stores various configuration parameters in a key-value pair format.
-4. **src/test/java/Resources/Altex_3.0.0_Apkpure.apk**:In the context of mobile application testing, the APK file serves as the deployment package for the Altex application Test automation frameworks can use this file to install and execute tests on Android devices.
-3. **src/ExtentReport/**:ExtentReports is a popular reporting library in the Java ecosystem used to generate interactive and detailed reports for test automation executions. This directory serves as a centralized location for storing these report
-4. **src/test/TestData/eCommerce.json**:In the context of software testing, test data files like "eCommerce.json" are used to provide input data for test cases, define expected outcomes, or configure test environments.
-5. **src/test/java/AppiumUtils**: These utilities can be useful for loading data from a JSON file during tests and for starting and managing a local Appium server for testing. Using such utilities helps maintain modular, understandable, and maintainable code in automation testing projects.
-6. **src/test/java/Configuration**: the Configuration class is responsible for setting up and configuring the Appium environment, initializing the Android driver, and performing cleanup tasks after test execution. This class plays a crucial role in the test automation framework for testing the Altex application on Android devices.
-7. **src/test/java/Listeners**: Listeners class serves as a listener for TestNG test events and is responsible for generating Extent reports with detailed test execution results. It captures test start, success, and failure events and logs them appropriately in the Extent report. This class plays a vital role in providing comprehensive test reports for analyzing test execution outcomes.
-8. **src/test/java/ExtentReporterNG**:ExtentReporterNG class facilitates the creation and configuration of Extent reports by providing a method to obtain an instance of the ExtentReports object with the necessary settings. This class is integral to generating comprehensive and visually appealing test reports for analyzing test execution results.
-9.**browserstack.yml**:this configuration file provides settings for authentication, specifying the project and build details, defining the platforms/devices for testing, configuring BrowserStack Local, and enabling debugging features for enhanced test analysis.
-10.**testng.xml**:testng.xml file defines a test suite that includes multiple test classes (such as LoginTests, ProductComparisonTests, and searchFunctionalityTests) and uses a listener specified in the Listeners class to handle testing events.
-11.**pom.xml**:pom.xml file defines project metadata, build configurations, properties, and dependencies required for building and running the Appium framework design project.
+1. **src/main/java/PageObjects**:
+   - *Description*: Represents each web page as a separate class using the Page Object Model (POM) design pattern, aiding in creating reusable and maintainable code.
 
+2. **src/main/java/Utils/AndroidActions**:
+   - *Description*: Contains utility classes or methods specifically tailored for performing actions on Android devices in a mobile automation project, such as tapping and swiping.
+
+3. **src/main/java/Resources/data.properties**:
+   - *Description*: Stores various configuration parameters in a key-value pair format.
+
+4. **src/test/java/Resources/Altex_3.0.0_Apkpure.apk**:
+   - *Description*: The APK file serves as the deployment package for the Altex application in mobile application testing scenarios, allowing test automation frameworks to install and execute tests on Android devices.
+
+5. **src/ExtentReport/**:
+   - *Description*: Stores ExtentReports generated during test automation executions, providing interactive and detailed reports.
+
+6. **src/test/TestData/eCommerce.json**:
+   - *Description*: Test data file used to provide input data for test cases, define expected outcomes, or configure test environments.
+
+7. **src/test/java/AppiumUtils**:
+   - *Description*: Utility classes for loading data from JSON files during tests and for starting and managing a local Appium server for testing, promoting modular and maintainable code.
+
+8. **src/test/java/Configuration**:
+   - *Description*: Responsible for setting up and configuring the Appium environment, initializing the Android driver, and performing cleanup tasks after test execution.
+
+9. **src/test/java/Listeners**:
+   - *Description*: Acts as a listener for TestNG test events, generating Extent reports with detailed execution results, crucial for analyzing test outcomes.
+
+10. **src/test/java/ExtentReporterNG**:
+    - *Description*: Facilitates the creation and configuration of Extent reports, providing necessary settings for generating comprehensive and visually appealing test reports.
+
+11. **browserstack.yml**:
+    - *Description*: Configuration file providing settings for authentication, specifying project and build details, defining platforms/devices for testing, configuring BrowserStack Local, and enabling debugging features for enhanced test analysis.
+
+12. **testng.xml**:
+    - *Description*: Defines a test suite including multiple test classes and specifies a listener for handling test events.
+
+13. **pom.xml**:
+    - *Description*: Defines project metadata, build configurations, properties, and dependencies required for building and running the Appium framework design project.
 
 
 
