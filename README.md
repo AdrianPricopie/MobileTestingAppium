@@ -25,4 +25,7 @@ This project is dedicated to testing the Altex mobile application using the Appi
 1. **src/main/java/PageObjects**:The Page Object Model (POM) is a design pattern that helps in creating reusable and maintainable code by representing each web page as a separate class.
 2. **src/main/java/Utils/AndroidActions**:This directory likely contains utility classes or methods related to performing actions specific to Android devices in a mobile automation project.to perform actions such as tapping, swiping.
 3. **src/main/java/Resources/data.properties**:The data.properties file stores various configuration parameters in a key-value pair format.
+4. **src/test/java/Resources/Altex_3.0.0_Apkpure.apk**:In the context of mobile application testing, the APK file serves as the deployment package for the Altex application Test automation frameworks can use this file to install and execute tests on Android devices.
+3. **src/ExtentReport/**:ExtentReports is a popular reporting library in the Java ecosystem used to generate interactive and detailed reports for test automation executions. This directory serves as a centralized location for storing these report
+4. **src/test/TestData/eCommerce.json**:In the context of software testing, test data files like "eCommerce.json" are used to provide input data for test cases, define expected outcomes, or configure test environments.
 
