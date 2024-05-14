@@ -76,7 +76,7 @@ This test verifies the login functionality in the Altex application. The user en
 2. Click on the authentication button.
 3. Enter the valid email address and password.
 4. Click the login button.
-5. Verify that the user's order exists on the account page to ensure that i can log in my account 
+5. Verify that the user's order exists on the account page to ensure that I am logged in.
 
 code: 
    ```java
