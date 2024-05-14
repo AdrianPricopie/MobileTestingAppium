@@ -65,6 +65,58 @@ This project is dedicated to testing the Altex mobile application using the Appi
     - *Description*: Defines project metadata, build configurations, properties, and dependencies required for building and running the Appium framework design project.
 
 
+## Tests
+
+### testLogin
+
+This test verifies the login functionality in the Altex application. The user enters their valid email address and password and then attempts to log in.
+
+#### Steps:
+1. Access the "My Account" tab in the application.
+2. Click on the authentication button.
+3. Enter the valid email address and password.
+4. Click the login button.
+5. Verify that the user's order exists on the account page.
+
+code: 
+   ```java
+   @Test(dataProvider="getData",groups = {"Smoke"})
+    public void testLogin(HashMap<String ,String> input) {
+        AccountPage accountPage  =  homePage.clickMyAccountTab();
+        accountPage.ClickAutenthButton();
+        accountPage.EnterEmail(input.get("ValidEmail"));
+        accountPage.EnterPassword(input.get("ValidPassword"));
+        accountPage.ClickLogin();
+        accountPage.VerifyThatExistMyOrderInPage();
+    }
+
+   ```
+
+### testLogout
+
+This test verifies the logout functionality in the Altex application after successful authentication.
+
+#### Steps:
+1. Access the "My Account" tab in the application.
+2. Click on the authentication button.
+3. Enter the valid email address and password.
+4. Click the login button.
+5. Scroll to the "Logout" text.
+6. Click the logout button.
+7. Verify that the authentication option is still present.
+
+### testLoginWithInvalidPass
+
+This test verifies the application's behavior when attempting to log in with an invalid password.
+
+#### Steps:
+1. Access the "My Account" tab in the application.
+2. Click on the authentication button.
+3. Enter the valid email address and an invalid password.
+4. Click the login button.
+5. Verify that an error message is displayed indicating invalid credentials.
+
+
 
 
 # Reports 
