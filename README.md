@@ -19,9 +19,10 @@ This project is dedicated to testing the Altex mobile application using the Appi
 - [Appium inspector](https://github.com/appium/appium-inspector)
 - [Maven](https://maven.apache.org/)
 - Test Devices:
-  - Samsung S22
+  - Samsung S22 Ultra
   - Google Pixel 6
-- Android 12: Operating system used on the test devices.
+  - Samsung S21
+- Android 12/11: Operating system used on the test devices.
 
 ### Project Structure
 
