@@ -348,7 +348,7 @@ code :
 
 # Reports 
 
-[Link to BrowserStack my report](https://app-automate.browserstack.com/dashboard/v2/public-build/clNTeE1lcldhcGNFakc3WFdhZEtlNGxoRGZrK3Y3RE9zcDF0bkdWd2hBdFNkTkw0aVRqTURCbWI2bkxnMWs3Nk1FOVdndzczaWRMOU1kcG84UjBJeFE9PS0teDBXaTFzd3JGZlZzaUFCMlNDWnpqQT09--4c540adb7c8368d2d46c8999c6dc7056f260be02)
+[Link to BrowserStack my report](https://app-automate.browserstack.com/dashboard/v2/public-build/VCtkQUNQbHJGT0txNzhDaXJDV29EMm1vRnF1dGpydysxeTZJMXNKdEJNSERBajBZNnNTTDdvb1FucjErQkxLbTVHNzV2YjgzamdmSXpLS3FSZmxtSHc9PS0teS80WHlwWGI3Yms2OHJrVlRoakU5Zz09--c03462a6ed017fd0cb80ee99fa4582a1fc01b0be)
 
 
 
