@@ -132,6 +132,18 @@ This test verifies the application's behavior when attempting to log in with an 
 4. Click the login button.
 5. Verify that an error message is displayed indicating invalid credentials.
 
+code : 
+   ```java
+   @Test(dataProvider="getData")
+    public void testLoginWithInvalidPassword(HashMap<String ,String> input) throws InterruptedException {
+        AccountPage accountPage  =  homePage.clickMyAccountTab();
+        accountPage.ClickAutenthButton();
+        accountPage.EnterEmail(input.get("ValidEmail"));
+        accountPage.EnterPassword(input.get("InvalidPassword"));
+        accountPage.ClickLogin();
+        accountPage.VerifyErrorMessageIsDisplayed();
+    }
+   ```
 
 
 
