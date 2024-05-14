@@ -353,6 +353,7 @@ You can access the detailed report on BrowserStack [here](https://app-automate.b
 Additionally, here's a snapshot of the HTML report:
 
 ![TestReport](https://github.com/AdrianPricopie/MobileTestingAppium/blob/main/Screenshot%202024-05-14%20at%2020.37.31.png)
+![TestReport](https://github.com/AdrianPricopie/MobileTestingAppium/blob/main/Screenshot%202024-05-14%20at%2020.43.03.png)
 
 In total, all 36 tests passed across 2 devices, and this report was generated on May 14th.
 
