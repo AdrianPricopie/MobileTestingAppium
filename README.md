@@ -308,7 +308,7 @@ code :
     ```
 3.**Install maven and set environment variables:**
 
-  you can install from [here](https://maven.apache.org/download.cgi),after you install you need to set environment variables 
+- you can install from [here](https://maven.apache.org/download.cgi),after you install you need to set environment variables,for that 
   you can see this video on [youtube](https://www.youtube.com/watch?v=3EfvEZ_wThc)
   
 
