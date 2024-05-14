@@ -58,7 +58,7 @@ This project is dedicated to testing the Altex mobile application using the Appi
 11. **browserstack.yml**:
     - *Description*: Configuration file providing settings for authentication, specifying project and build details, defining platforms/devices for testing, configuring BrowserStack Local, and enabling debugging features for enhanced test analysis.
 
-12. **TestNGSuite/**.xml**:
+12. **TestNGSuite/**:
     - *Description*: Defines a test suite including multiple test classes and specifies a listener for handling test events.
 
 13. **pom.xml**:
