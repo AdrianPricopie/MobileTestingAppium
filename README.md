@@ -309,13 +309,30 @@ code :
 3. **Run the Test Suite with html reports:**
 
     ```bash
-    mvn test -PRegression
+    BROWSER_AUTOMATION = false mvn test -PRegression
     ```
     or
       ```bash
-    mvn test -PSmoke
+    BROWSER_AUTOMATION = false mvn test -PRegression
     ```
-   after you can see result in ExtentReports directory,copy path from report.html and paste in browser 
+   after you can see result in ExtentReports directory,copy path from report.html and paste in browser
+   If you want to run the tests in browserStack
+   **Follow this steps :**
+   1.Create an account on the [BrowserStack page](https://www.browserstack.com/)
+   2.Press app testing and app automate
+   3.Press upload
+   4.Upload the atlex.apk file ,from my project ,you will find in src/test/resources/Altex_3.0.0_Apkpure.apk or [here]    (https://github.com/AdrianPricopie/MobileTestingAppium/blob/main/src/test/resources/Altex_3.0.0_Apkpure.apk)
+   5.App URL returned when uploading the app to BrowserStack manually ,copy this url
+   6.Press ACCES KEY
+   7.Copy userName key and accessKey
+   7.Open browserstack.yml file from project
+   8.Paste URL in app:
+   9.Paste username key and accessKey
+   10.You can run the tests locall with this commands:
+     ```bash
+    BROWSER_AUTOMATION = true  mvn test -PRegression
+    ```
+   11.the report will be generated in your Browserstack account 
 # Reports 
 
 [Link to BrowserStack my report](https://app-automate.browserstack.com/dashboard/v2/public-build/clNTeE1lcldhcGNFakc3WFdhZEtlNGxoRGZrK3Y3RE9zcDF0bkdWd2hBdFNkTkw0aVRqTURCbWI2bkxnMWs3Nk1FOVdndzczaWRMOU1kcG84UjBJeFE9PS0teDBXaTFzd3JGZlZzaUFCMlNDWnpqQT09--4c540adb7c8368d2d46c8999c6dc7056f260be02)
