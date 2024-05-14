@@ -350,6 +350,9 @@ code :
 
 [Link to BrowserStack my report](https://app-automate.browserstack.com/dashboard/v2/public-build/VCtkQUNQbHJGT0txNzhDaXJDV29EMm1vRnF1dGpydysxeTZJMXNKdEJNSERBajBZNnNTTDdvb1FucjErQkxLbTVHNzV2YjgzamdmSXpLS3FSZmxtSHc9PS0teS80WHlwWGI3Yms2OHJrVlRoakU5Zz09--c03462a6ed017fd0cb80ee99fa4582a1fc01b0be)
 
+html report 
+
+![TestReport](https://github.com/AdrianPricopie/MobileTestingAppium/blob/main/Screenshot%202024-05-14%20at%2020.37.31.png)
 
 
 
