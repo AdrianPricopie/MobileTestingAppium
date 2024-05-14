@@ -260,6 +260,38 @@ code :
 #### Verification:
 - Verify if the message indicating the empty search field is displayed.
 
+# Comparison of Two Products Test
+
+This test compares two products and verifies if they are displayed on the comparison page.
+
+## Steps:
+1. Click on the search field.
+2. Type "Television" into the search field.
+3. Press the Enter button to perform the search.
+4. Retrieve the titles of the first and second products from the search results.
+5. Select the comparison icon for both products.
+6. Click the comparison button to view the comparison page.
+
+code : 
+   ```java
+      @Test(groups = {"Smoke"})
+    public void testComparisonOfTwoProducts() {
+        homePage.clickSearch();
+        homePage.typeProductInSearchField("Televizor");
+        ProductCatalogue productCatalogue = homePage.pressEnter();
+        String TitleFirstProduct = productCatalogue.getTitleProductByIndex(0);
+        String TitleSecondProduct = productCatalogue.getTitleProductByIndex(1);
+        productCatalogue.selectIconComparisonByIndex(0);
+        productCatalogue.selectIconComparisonByIndex(1);
+        ComparisonPage comparisonPage = productCatalogue.ClickComparisonButton();
+        Assert.assertTrue(comparisonPage.VerifyVisibilityTitle(TitleFirstProduct), "Primul produs nu este afișat în pagina de comparație");
+        Assert.assertTrue(comparisonPage.VerifyVisibilityTitle(TitleSecondProduct), "Al doilea produs nu este afișat în pagina de comparație");
+    }
+   ```    
+
+## Verification:
+- Verify if the title of the first product is visible on the comparison page.
+- Verify if the title of the second product is visible on the comparison page.
 
 
 # Reports 
