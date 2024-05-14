@@ -15,6 +15,8 @@ This project is dedicated to testing the Altex mobile application using the Appi
 - [TestNG](https://testng.org/): Unit and integration testing platform for Java.
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/): Code editor used for development.
 - [BrowserStack](https://www.browserstack.com/): Cloud testing platform for running tests on various devices and browsers.
+- [Emulator](https://developer.android.com/studio)
+- [Appium inspector](https://github.com/appium/appium-inspector)
 - Test Devices:
   - Samsung S22
   - Google Pixel 6
