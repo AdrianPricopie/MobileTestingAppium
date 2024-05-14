@@ -145,6 +145,83 @@ code :
     }
    ```
 
+# Search Functionality Tests
+
+## Test 1: Search for Existing Product
+
+#### Steps:
+1. Click on the search field.
+2. Enter the name of the existing product in the search field.
+3. Press the Enter button to perform the search.
+
+code : 
+   ```java
+    @Test(dataProvider="getData",groups = {"Smoke"})
+    public void TestSearchProduct(HashMap<String ,String> input) {
+        homePage.clickSearch();
+        homePage.typeProductInSearchField(input.get("Product"));
+        ProductCatalogue productCatalogue = homePage.pressEnter();
+        String ActualResult = productCatalogue.getTitleProductByIndex(0);
+        Assert.assertTrue(ActualResult.contains(input.get("Product")));
+    }
+   ```
+
+
+#### Verification:
+- Verify if the search result contains the searched product.
+
+## Test 2: Search for Non-existent Product
+
+#### Steps:
+1. Click on the search field.
+2. Enter the name of a non-existent product in the search field.
+3. Press the Enter button to perform the search.
+
+code : 
+   ```java
+    @Test(dataProvider="getData")
+    public void testSearchForNonExistentProduct(HashMap<String,String>input) {
+        homePage.clickSearch();
+        String inexisting_product = input.get("InexistingProduct");
+        homePage.typeProductInSearchField(inexisting_product);
+        homePage.pressEnter();
+        String result_text = homePage.getTitleForNoResultProduct();
+        String expectedResult = "Ne pare rau, cautarea ta " + inexisting_product + " nu a avut niciun rezultat. Verifica daca ai scris corect sau incearca sa cauti folosind alt termen.";
+        Assert.assertEquals(result_text, expectedResult);
+    }
+   ```   
+
+#### Verification:
+- Verify if the appropriate error message is displayed.
+
+## Test 3: Verify Home Page Displayed
+
+#### Steps:
+1. Check if the home page of the application is displayed.
+
+#### Verification:
+- Verify if the home page is displayed correctly.
+
+## Test 4: Search with Fewer Characters
+
+#### Steps:
+1. Click on the search field.
+2. Enter fewer characters in the search field.
+3. Press the Enter button to perform the search.
+
+#### Verification:
+- Verify if the message indicating the minimum characters required is displayed.
+
+## Test 5: Search with Empty Input
+
+#### Steps:
+1. Click on the search field.
+2. Leave the search field empty.
+3. Press the Enter button to perform the search.
+
+#### Verification:
+- Verify if the message indicating the empty search field is displayed.
+
 
 
 # Reports 
