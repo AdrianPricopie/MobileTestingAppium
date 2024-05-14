@@ -105,6 +105,22 @@ This test verifies the logout functionality in the Altex application after succe
 6. Click the logout button.
 7. Verify that the authentication option is still present.
 
+code : 
+   ```java
+   @Test(dataProvider="getData")
+    public void testLogout(HashMap<String ,String> input) {
+        AccountPage accountPage  =  homePage.clickMyAccountTab();
+        accountPage.ClickAutenthButton();
+        accountPage.EnterEmail(input.get("ValidEmail"));
+        accountPage.EnterPassword(input.get("ValidPassword"));
+        accountPage.ClickLogin();
+        accountPage.scrollToText("Logout");
+        accountPage.ClickLogout();
+        accountPage.VerifyAutenthIsPresent();
+    }
+   ```
+
+
 ### testLoginWithInvalidPass
 
 This test verifies the application's behavior when attempting to log in with an invalid password.
