@@ -17,6 +17,7 @@ This project is dedicated to testing the Altex mobile application using the Appi
 - [BrowserStack](https://www.browserstack.com/): Cloud testing platform for running tests on various devices and browsers.
 - [Emulator](https://developer.android.com/studio)
 - [Appium inspector](https://github.com/appium/appium-inspector)
+- [Maven](https://maven.apache.org/)
 - Test Devices:
   - Samsung S22
   - Google Pixel 6
