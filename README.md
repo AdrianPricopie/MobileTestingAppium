@@ -199,6 +199,15 @@ code :
 #### Steps:
 1. Check if the home page of the application is displayed.
 
+code : 
+   ```java
+  @Test(groups = {"Smoke"})
+    public void isHomePageDisplayed() {
+        boolean isFirstPage = homePage.VerifyDisplayed();
+        Assert.assertTrue(isFirstPage, "Not on the first page");
+    }
+   ```    
+
 #### Verification:
 - Verify if the home page is displayed correctly.
 
@@ -209,6 +218,21 @@ code :
 2. Enter fewer characters in the search field.
 3. Press the Enter button to perform the search.
 
+code : 
+   ```java
+     @Test(dataProvider="getData")
+    public void testSearchWithFewerCharacters(HashMap<String,String>input) {
+        homePage.clickSearch();
+        homePage.typeProductInSearchField(input.get("TwoCharacter")); // Fewer characters
+        homePage.pressEnter();
+
+        // Verify that the minimum characters message is displayed
+        boolean isMessageDisplayed = homePage.VerifyMinimumCharacterMessageEle();
+        Assert.assertTrue(isMessageDisplayed, "Minimum characters message is not displayed");
+    }
+   ```    
+   
+
 #### Verification:
 - Verify if the message indicating the minimum characters required is displayed.
 
@@ -218,6 +242,19 @@ code :
 1. Click on the search field.
 2. Leave the search field empty.
 3. Press the Enter button to perform the search.
+code : 
+   ```java
+     @Test()
+    public void testSearchWithEmptyInput() {
+        homePage.clickSearch();
+        homePage.typeProductInSearchField("");
+        homePage.pressEnter();
+
+        // Verify that the minimum characters message is displayed
+        boolean isMessageDisplayed = homePage.VerifyMinimumCharacterMessageEle();
+        Assert.assertTrue(isMessageDisplayed, "Minimum characters message is not displayed");
+    }
+   ```    
 
 #### Verification:
 - Verify if the message indicating the empty search field is displayed.
