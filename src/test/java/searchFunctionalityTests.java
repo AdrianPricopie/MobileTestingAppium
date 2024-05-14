@@ -8,7 +8,7 @@ import java.util.List;
 
 public class searchFunctionalityTests extends Configuration {
 
-    @Test(dataProvider="getData")
+    @Test(dataProvider="getData",groups = {"Smoke"})
     public void TestSearchProduct(HashMap<String ,String> input) {
         homePage.clickSearch();
         homePage.typeProductInSearchField(input.get("Product"));
@@ -26,7 +26,7 @@ public class searchFunctionalityTests extends Configuration {
         String expectedResult = "Ne pare rau, cautarea ta " + inexisting_product + " nu a avut niciun rezultat. Verifica daca ai scris corect sau incearca sa cauti folosind alt termen.";
         Assert.assertEquals(result_text, expectedResult);
     }
-    @Test
+    @Test(groups = {"Smoke"})
     public void isHomePageDisplayed() {
         boolean isFirstPage = homePage.VerifyDisplayed();
         Assert.assertTrue(isFirstPage, "Not on the first page");
@@ -41,7 +41,7 @@ public class searchFunctionalityTests extends Configuration {
         boolean isMessageDisplayed = homePage.VerifyMinimumCharacterMessageEle();
         Assert.assertTrue(isMessageDisplayed, "Minimum characters message is not displayed");
     }
-    @Test
+    @Test()
     public void testSearchWithEmptyInput() {
         homePage.clickSearch();
         homePage.typeProductInSearchField("");

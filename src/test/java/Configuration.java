@@ -22,7 +22,7 @@ public class Configuration extends AppiumUtils  {
     public AndroidDriver driver;
     public AppiumDriverLocalService service;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void ConfigureAppium() throws IOException{
         //start server appium
         Properties prop = new Properties();
@@ -31,7 +31,9 @@ public class Configuration extends AppiumUtils  {
 
         prop.load(fis);
 
-        String ipAddress = prop.getProperty("ipAddress");
+
+        String ipAddress = System.getProperty("ipAddress")!=null ? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
+
         String port = prop.getProperty("port");
         String DeviceName = prop.getProperty("AndroidDeviceName");
 
@@ -52,7 +54,7 @@ public class Configuration extends AppiumUtils  {
         homePage = new HomePage(driver);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.quit();
         service.stop();

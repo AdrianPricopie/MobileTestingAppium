@@ -1,0 +1,526 @@
+14:45:36.618 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+14:45:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+14:45:36.701 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:45:36.701 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/browserstack.yml
+14:45:36.721 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:45:36.844 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+14:45:36.844 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+14:45:36.925 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket50391 @w@/private/var/folders/9c/0hjdnzc517g4l0p6s9dc07gr0000gn/T/idea_working_dirs_testng.tmp -temp /private/var/folders/9c/0hjdnzc517g4l0p6s9dc07gr0000gn/T/idea_testng.tmp
+14:45:36.925 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+14:45:36.929 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+14:45:36.932 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+14:45:36.932 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+14:45:36.932 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.24
+14:45:36.933 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://e118ff46d0d17ee405e21cac9ed776b78fdb05a8]
+14:45:36.933 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:45:37.825 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+14:45:38.208 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 380ms
+14:45:39.540 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 1329ms
+14:45:40.654 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 1112ms
+14:45:40.657 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+14:45:40.668 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"rWqVcVgQ9JjsRPYasL5s","userName":"adrianpricopie_WbGzFf","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack build","os":"Mac OS X","languageVersion":"22","appiumVersion":"9.2.2","frameworkDetectionInstrumentation":{"parseLoadClass":3,"parseDependencies":3},"language":"java","sdkRunId":"011a5ff3-7d9b-482a-b051-6312e010029a","buildIdentifier":"#25","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.24","hostname":"adrians-MacBook-Pro-3.local","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.20.0","seleniumVersion":"4.20.0"}}
+14:45:41.035 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+14:45:41.036 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:45:41.106 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:41.106627Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+14:45:41.106 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+14:45:42.346 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:45:42.348 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : l4mvnveye4cguvrpedkmdndwj0rn0vr1drjgel8r
+14:45:42.348 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-14T11:45:42.348599Z][ OBSERVABILITY ] Build creation successfull!
+
+14:45:42.348 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:45:42.355 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 14_May_1445_adrians_MacBook_Pro_3_local_zprg
+14:45:48.266 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:45:48.559 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.559386Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.560 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.560865Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.561 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.561414Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.561 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.561498Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.561 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.561676Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.561 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.561727Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.561 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.561880Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.561 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.561927Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562077Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562144Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562290Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562339Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562485Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562532Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562677Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.562 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.562723Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.564 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.564291Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.566 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.566578Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.566 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.566740Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.567 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.567681Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.567 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.567760Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.567 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.567806Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.567 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.567869Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568254Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568386Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568433Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568501Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568535Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568566Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.568 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.568606Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.569 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.569633Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.569 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.569702Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.569 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.569847Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.569 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.569897Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570019Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570083Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570221Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570272Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570393Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570440Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570561Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570610Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570740Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570788Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570909Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.570 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.570956Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571153Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571258Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571305Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571382Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571424Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571455Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571503Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571746Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571830Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571868Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571922Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571959Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.571 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.571991Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572028Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572487Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572534Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572647Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572690Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572798Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572843Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.572 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572951Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.572994Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573117Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573161Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573268Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573317Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573424Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573466Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573576Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573621Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573796Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573881Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573919Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.573 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.573975Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.574 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.574015Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.574 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.574062Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.574 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.574102Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.575 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.575338Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.575 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.575434Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.575 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.575471Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.575 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.575527Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.576 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.576014Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.576 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.576064Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.576 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.576107Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.577 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.577003Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.577 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.577068Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.577 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.577108Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.577 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.577144Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.578 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.578981Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579382Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579463Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579515Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579558Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579603Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579644Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579683Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579724Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579761Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.579 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.579791Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.580 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.580878Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.580 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.580957Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.580999Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.581056Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.581467Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.581513Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.581550Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.581593Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.584 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.584912Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.584 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.584986Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585135Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585194Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585309Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585352Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585458Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585499Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585605Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585646Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585753Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585795Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585901Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.585 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.585944Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586323Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586387Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586605Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586687Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586725Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586779Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586808Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586839Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.586882Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587089Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587181Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587216Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587271Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587301Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587328Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.587359Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588102Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588160Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588285Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588325Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588417Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588452Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588535Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588571Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588655Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588693Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588776Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588812Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588898Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.588 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.588934Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589016Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589071Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589210Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589280Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589311Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589361Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589395Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589449Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589493Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589680Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589748Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589782Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589834Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589859Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589881Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.589 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.589911Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590248Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590306Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590386Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590420Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590504Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590534Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590606Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590639Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590713Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590746Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590817Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590846Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590916Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.590951Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591016Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591073Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591204Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591281Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591310Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591358Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591384Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591410Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591441Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591605Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591672Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591746Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591772Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591792Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591820Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591931Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591964Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.591 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.591995Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592023Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592313Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592431Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592477Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592515Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592550Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592583Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592613Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592642Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592675Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592703Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592724Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.592 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.592963Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593004Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593043Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593074Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593149Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593182Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593208Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593237Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593806Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.593 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.593924Z][ OBSERVABILITY ] Processing Logs patching stream
+14:45:48.596 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.596686Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.600 [End to end Framework Test-1@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.600408Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.600 [End to end Framework Test-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.600510Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+14:45:48.677 [ConfigureAppium@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: Configuration 
+14:45:48.677 [ConfigureAppium@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: Configuration 
+14:45:48.677 [ConfigureAppium@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign, TestClass :: Configuration
+14:45:48.677 [ConfigureAppium@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign, TestClass :: Configuration
+14:45:48.685 [ConfigureAppium@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/src/test/java/Configuration.java, fileSeparator :: /, AbsolutePath :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/., Normalized Path :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign, File.Separator :: /
+14:45:48.685 [ConfigureAppium@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/src/test/java/Configuration.java, fileSeparator :: /, AbsolutePath :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/., Normalized Path :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign, File.Separator :: /
+14:45:48.685 [ConfigureAppium@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: AppiumFrameworkDesign/src/test/java/Configuration.java, Absolute Path :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/.., Normalized Path :: /Users/adrianpricopie/IdeaProjects 
+14:45:48.685 [ConfigureAppium@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: AppiumFrameworkDesign/src/test/java/Configuration.java, Absolute Path :: /Users/adrianpricopie/IdeaProjects/AppiumFrameworkDesign/.., Normalized Path :: /Users/adrianpricopie/IdeaProjects 
+14:45:48.686 [ConfigureAppium@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.686662Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+14:45:48.686 [ConfigureAppium@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:48.686662Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+14:45:50.565 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:50.565182Z][ OBSERVABILITY ] Time Since Last Batch Processed 1715687150565
+
+14:45:50.567 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:50.567556Z][ OBSERVABILITY ] Processing Batch 232
+
+14:45:50.567 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+14:45:51.262 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:45:51.263 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-14T11:45:51.263027Z][ OBSERVABILITY ] Batch event successfull!
+
+14:45:53.221 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+14:45:53.221 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+14:45:53.221 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:53.221535Z][ OBSERVABILITY ] Processing stop observability
+14:45:53.221 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-14T11:45:53.221849Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+14:45:53.221 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/l4mvnveye4cguvrpedkmdndwj0rn0vr1drjgel8r/stop
+14:45:53.363 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:45:53.364 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+14:45:53.365 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/l4mvnveye4cguvrpedkmdndwj0rn0vr1drjgel8r to view build report, insights, and many more debugging information all at one place!
+

@@ -9,7 +9,7 @@ import java.util.List;
 public class LoginTests extends Configuration {
 
 
-    @Test(dataProvider="getData")
+    @Test(dataProvider="getData",groups = {"Smoke"})
     public void testLogin(HashMap<String ,String> input) {
         AccountPage accountPage  =  homePage.clickMyAccountTab();
         accountPage.ClickAutenthButton();

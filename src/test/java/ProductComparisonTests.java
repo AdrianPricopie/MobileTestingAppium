@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class ProductComparisonTests extends Configuration {
 
-    @Test
+    @Test(groups = {"Smoke"})
     public void testComparisonOfTwoProducts() {
         homePage.clickSearch();
         homePage.typeProductInSearchField("Televizor");

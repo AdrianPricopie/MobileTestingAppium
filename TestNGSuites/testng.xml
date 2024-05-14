@@ -8,9 +8,9 @@
    
     <test verbose="2" preserve-order="true" name="End to end Framework Test">
         <classes>
-        <class name="LoginTests"/>
-            <class name="ProductComparisonTests"/>
             <class name="searchFunctionalityTests"/>
+            <class name="LoginTests"/>
+            <class name="ProductComparisonTests"/>
 
         </classes>
 
