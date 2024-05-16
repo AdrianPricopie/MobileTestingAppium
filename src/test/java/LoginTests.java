@@ -32,7 +32,7 @@ public class LoginTests extends Configuration {
         accountPage.VerifyAutenthIsPresent();
     }
     @Test(dataProvider="getData")
-    public void testLoginWithInvalidPass(HashMap<String ,String> input) throws InterruptedException {
+    public void testLoginWithInvalidPassword(HashMap<String ,String> input) throws InterruptedException {
         AccountPage accountPage  =  homePage.clickMyAccountTab();
         accountPage.ClickAutenthButton();
         accountPage.EnterEmail(input.get("ValidEmail"));

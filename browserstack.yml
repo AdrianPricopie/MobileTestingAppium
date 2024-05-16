@@ -11,7 +11,7 @@ accessKey: rWqVcVgQ9JjsRPYasL5s
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: BrowserStack Altex
+projectName: BrowserStack Sample
 # Set `buildName` as the name of the job / testsuite being run
 buildName: browserstack build
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
@@ -39,6 +39,9 @@ app: bs://e118ff46d0d17ee405e21cac9ed776b78fdb05a8 # BrowserStack Sample App
 platforms:
   - deviceName: Samsung Galaxy S22 Ultra
     platformVersion: 12.0
+    platformName: android
+  - deviceName: Samsung Galaxy S21
+    platformVersion: 11.0
     platformName: android
   - deviceName: Google Pixel 6 Pro
     platformVersion: 12.0
@@ -70,7 +73,7 @@ browserstackLocal: true # <boolean> (Default false)
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
   # forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
   # Entire list of arguments available here -> https://www.browserstack.com/docs/automate/selenium/manage-incoming-connections
-
+  
 # ===================
 # Debugging features
 # ===================
