@@ -68,6 +68,30 @@ This project is dedicated to testing the Altex mobile application using the Appi
 
 ## Tests
 
+### Test Data 
+
+   ```json
+[
+  {
+    "Product": "iPhone 15",
+    "InexistingProduct": "fdasfdsa",
+    "TwoCharacter": "iP",
+    "ValidEmail":"bank-guide@wuvxtq9v.mailosaur.net",
+    "ValidPassword": "Parola123",
+    "InvalidPassword": "ParoF3244"
+  },
+
+  {
+    "Product": "Televizor",
+    "InexistingProduct": "F3J20IF2093F3J2WC23C2",
+    "TwoCharacter": "AB"
+  }
+]
+
+   ```
+
+
+
 ### testLogin
 
 This test verifies the login functionality in the Altex application. The user enters their valid email address and password and then attempts to log in.
